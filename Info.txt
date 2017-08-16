@@ -1,0 +1,15 @@
+PROJECT:
+Build your own database of minimum 260 paintings listed on: 
+http://www.saatchiart.com/paintings/fine-art 
+You have to use the following classification features describing these 
+paintings: name of painting, artist name, size (if for instance 48"x64",
+then use 3072 = 48x64), price, number of views, number of favorites, 
+date, subject (http://www.art.com/shop/art-subjects/), medium 
+(watercolor, canvas, oil, mixed media,...). Also, you have to propose 
+minimum 4 new features for describing these paintings. When your DB is 
+built, take price as the decision feature and split it into 3 intervals 
+(discretize it) in a way that resulting classifiers have highest 
+precission (use WEKA for classifiers construction). Your classifiers 
+should not use artist name nor name of painting as a classification 
+feature.
+[This is a group project with 5 students maximum in a group].
